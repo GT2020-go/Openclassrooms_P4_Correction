@@ -704,6 +704,17 @@ p {
     margin: auto auto auto auto;
 }
 
+.partners {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.partners li {
+    padding: 10px 24px 10px 24px;
+    list-style-type: none;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
