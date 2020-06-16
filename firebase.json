@@ -14,7 +14,7 @@
                 }]
             },
             {
-                "source": "*/.@(jpg|png|css|js)",
+                "source": "*/.@(webp|jpg|png|css|js)",
                 "headers": [{
                     "key": "Cache-Control",
                     "value": "max-age=30672000"
