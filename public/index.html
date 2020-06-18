@@ -74,8 +74,17 @@
             <div class="container bloc-lg">
                 <div class="row tight-width-whitespace">
                     <div class="col-sm-12">
-                        <img src="img/logo.webp" class="center-block image-resize-mode" width="100"
-                            alt="La chouette agence, agence web Lyon, création logo Lyon" />
+
+                        <picture>
+                            <source srcset="img/logo.webp" type="image/webp" class="center-block image-resize-mode"
+                                alt="La chouette agence, agence web Lyon, création logo Lyon" width="100" />
+                            <source srcset="img/logo.png" type="image/png" class="center-block image-resize-mode"
+                                alt="La chouette agence, agence web Lyon, création logo Lyon" width="100" />
+                            <img src="img/logo.png" class="center-block image-resize-mode"
+                                alt="La chouette agence, agence web Lyon, création logo Lyon" width="100" />
+                        </picture>
+
+
                         <h1 class="text-center hero-bloc-text tc-white ">
                             La chouette agence.
                         </h1>
