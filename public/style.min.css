@@ -334,7 +334,7 @@ a:hover {
 
 .nav>li a:focus,
 .nav>li a:hover {
-    background: 1 1
+    background: 1px 1px
 }
 
 .navbar-toggle {
@@ -844,14 +844,16 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: image("img/la-chouette-agence-banniere (1).webp", "img/la-chouette-agence-banniere (1).jpg");
     background-image: url("img/la-chouette-agence-banniere (1).jpg");
+    background-image: image("img/la-chouette-agence-banniere (1).webp", "img/la-chouette-agence-banniere (1).jpg");
+
 
 }
 
 .bg-presentation {
-    background-image: image("img/image-de-presentation (1).webp", "img/image-de-presentation (1).jpg");
     background-image: url("img/image-de-presentation (1).jpg");
+    background-image: image("img/image-de-presentation (1).webp", "img/image-de-presentation (1).jpg");
+
 
 }
 
